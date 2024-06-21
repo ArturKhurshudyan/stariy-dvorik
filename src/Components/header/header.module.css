@@ -1,0 +1,146 @@
+.header1{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    z-index: 998;
+    background-color: #ea3b01;
+    
+}
+
+.header{
+    position: fixed;
+    width: 81%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #ea3b01;
+    /* padding: 0 2px; */
+    margin: 0;
+
+}
+
+.wrapper{
+    width: 1220px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+    
+}
+.wrapper1{
+    width: 980px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+    
+}
+
+
+.logo a{
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.nav p{
+    margin-right: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+    color: white;
+}
+
+
+
+.nav p:hover {
+    opacity: 0.5;
+}
+
+.shop_button{
+    position: relative;
+    font-size: 25px;
+    padding-right: 7px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.karzina_icon{
+    color: white;
+}
+
+.shop_button_item{
+    position: absolute;
+    width: 15px;
+    padding: 2px;
+    text-align: center;
+    background-color: rgb(295, 157, 0)  ;
+    border-radius: 50%;
+    margin-left: 20px;
+    font-weight: 600;
+    margin-top: -42px;
+    font-size: 12px;
+    border: 1px solid white;
+    z-index: 999;
+    
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .wrapper{
+        width: 944px;
+    }
+    .wrapper1{
+        width: 644px;
+    }
+    .header{
+        width: 73%;
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .wrapper{
+        width: 669px;
+    }
+    .wrapper1{
+        width: 470px;
+    }
+    .header{
+        width: 67%;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .wrapper{
+        width: 400px;
+    }
+    .wrapper1{
+        width: 280px;
+    }
+    .header{
+        width: 65%;
+        padding-left: 2px;
+    }
+    .nav p{
+        margin-right: 8px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,78 @@
+.item{
+    width: max-content;
+    margin-bottom: 30px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 20px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+
+.item img{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 500ms ease;
+    cursor: pointer;
+}
+
+.item img:hover {
+    transform: scale(1.05);
+}
+.title, main .text, main .price{
+    margin: 15px 0px;
+    color: #333;
+    font-size: 22px;
+}
+
+.itemzoom{
+    width: max-content;
+    margin-bottom: 25px;
+    cursor: pointer;
+    font-weight: 500;
+    
+}
+
+.flex{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.cart_price{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #ea3b01;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .item img{
+        width: 200px;
+        height: 150px;
+    }
+    .title, main .text, main .price{
+        margin: 15px 0px;
+        color: #333;
+    }
+    .itemzoom{
+        color: #5fa36a;
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    
+    
+}
+
+@media only screen and (max-width: 481px) {
+    .item img{
+        width: 250px;
+        height: 187px;
+    }
+    
+    
+}

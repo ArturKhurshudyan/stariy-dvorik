@@ -1,0 +1,141 @@
+
+
+.karzina{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.korzina_title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.cart_list{
+    width: 100%;
+    height: max-content;
+    border-radius: 10px;
+}
+.relative{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 15px;
+}
+
+.product_none{
+    align-items: center;
+    font-size: 32px;
+}
+
+.block{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cart_img{
+    width: 120px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.cart_list_info{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart_price{
+    width: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: white;
+}
+.cart_title{
+    width: 250px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: white;
+}
+
+.sumPriceblock{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px 5px 5px, rgba(0, 0, 0, 0.09) 0px -5px 5px;
+    
+}
+
+.sumPriceblock p{
+    width: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.sumPriceblock span{
+    width: 30px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+    font-size: 30px; 
+}
+.close_item{
+    font-size: 30px;
+    cursor: pointer;
+}
+.cart_menu_arrange{
+    width: 30%;
+    height: max-content;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 30px ;
+    margin-left: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.cart_total_price{
+    text-align: center;
+}
+
+.buy, .cart_total_price div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.buy p,.cart_total_price p {
+    margin-right: 35px;
+    text-align: center;
+    /* font-weight: 500; */
+}
+.zakazat{
+    background-color: #ea3b01;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 10px ;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.allprice{
+    color: #ea3b01;
+    font-weight: 700;
+}

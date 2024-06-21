@@ -1,0 +1,12 @@
+.menu_buy{
+    position: absolute;
+    display: flex;
+    right: 15px;
+    bottom: 13px;
+    align-items: center;
+}
+
+.menu_buy_price{
+    margin-right: 20px;
+    color: black;
+}

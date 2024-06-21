@@ -1,0 +1,26 @@
+.btn{
+        right: 20px;
+        bottom: 20px;
+        width: 105px;
+        height: 40px;
+        text-align: center;
+        line-height: 15px;
+        color: white;
+        border-radius: 12px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: transform 500ms ease;
+        border: none;
+}
+
+
+
+.btn--primary{
+    background-color: rgb(295, 157, 0);
+}
+
+.btn--secondary{
+    background-color: #ea3b01;
+
+}
+
